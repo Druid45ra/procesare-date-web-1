@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#data-preview {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#data-preview th,
+#data-preview td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#data-preview th {
+    background-color: #f2f2f2;
+}

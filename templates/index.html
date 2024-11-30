@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesare Date</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <h1>Procesare Date</h1>
+    <div id="upload-section">
+        <h2>Încărcare Fișier</h2>
+        <input type="file" id="file-input">
+        <button id="upload-btn">Încarcă</button>
+    </div>
+    <div id="data-section" style="display: none;">
+        <h2>Date Încărcate</h2>
+        <table id="data-preview"></table>
+        <button id="stats-btn">Vezi Statistici</button>
+        <div id="statistics"></div>
+        <h2>Generare Grafic</h2>
+        <select id="column-select"></select>
+        <button id="plot-btn">Generează Grafic</button>
+        <img id="plot-image" src="" alt="Grafic" style="display: none;">
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
